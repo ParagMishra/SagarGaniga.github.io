@@ -76,7 +76,7 @@ body {
 
 #div1
 {
-  width:30%;
+  width:30px;
   background:red;
   height:100px;
 }
@@ -84,6 +84,6 @@ body {
 #div2
 {
   height:100px;
-  width:30%;
+  width:30px;
   background:blue;
 }
