@@ -76,12 +76,12 @@ body {
 
 #div1
 {
-  width: 100px;
-  float: left;
+  width="30%";
+  background="red";
 }
 
 #div2
 {
-  float: right;
-  width: 100px;
+  width="30%";
+  background="blue";
 }
