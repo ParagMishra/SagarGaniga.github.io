@@ -76,14 +76,14 @@ body {
 
 #div1
 {
-  width=30%;
-  background=red;
-  height=100px;
+  width:30%;
+  background:red;
+  height:100px;
 }
 
 #div2
 {
-  height=100px;
-  width=30%;
-  background=blue;
+  height:100px;
+  width:30%;
+  background:blue;
 }
