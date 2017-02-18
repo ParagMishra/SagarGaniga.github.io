@@ -30,7 +30,17 @@
         </div>
       </div>
       <div id="footer">
-      
+        be 'http(s)://<username>.github.io/<projectname>' , while an organization's URL will be 'http(s)://<orgname>.github.io/<projectname>' . The steps for creating Project Pages are the same for both.
+
+Project Pages are similar to User and Organization Pages, with a few slight differences:
+
+You can build and publish Project Pages sites from the master or gh-pages branch. You can also publish your site from a /docs folder on your master branch. For more information, see "Configuring a publishing source for GitHub Pages."
+
+If no custom domain is used, the Project Pages sites are served under a subpath of the User Pages site: username.github.io/projectname
+
+A custom domain on User and Organization Pages sites applies the same domain redirect to all Project Pages sites hosted under that account. Project Pages sites that use a custom domain are also available at username.github.io/projectname for personal accounts, and orgname.github.io/projectname for organizations.
+Custom 404s will only work if a custom domain is used. Otherwise, the User Page 404 is used.
+Warning: If the URL for your Pages site contains a username or organization name that begins or ends in a dash, or contains consecutive dashes, then people browsing with Linux will receive a server error when they visit the site. To fix this, change your GitHub username to remove non-alphanumeric characters. For instructions on how to do this, see 
       </div>
     </div>
   </body>
